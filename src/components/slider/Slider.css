@@ -1,0 +1,28 @@
+/* Slider.css */
+.slick-prev,
+.slick-next {
+  font-size: 0; /* Set font size to 0 to hide the text */
+  line-height: 0; /* Set line height to 0 */
+  width: 40px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid blue; /* Change the background color as needed */
+  color: #000000; /* Change the text color as needed */
+  margin-right: -45px;
+  margin-left: -50px;
+  z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px; /* Reset font size for the arrow icons */
+  color: blue;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #8dabff; /* Change the background color on hover as needed */
+  border: none;
+}
